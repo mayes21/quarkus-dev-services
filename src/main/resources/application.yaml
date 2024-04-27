@@ -1,0 +1,13 @@
+quarkus:
+  http:
+    port: 8090
+
+# datasource config by profile
+#"%prod":
+#  quarkus:
+#    datasource:
+#      db-kind: postgresql
+#      username: postgres
+#      password: secret
+#      jdbc:
+#        url: jdbc:postgresql://localhost:5432/mydatabase
